@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let soPhutSuDung = prompt("Nhập số phút sử dụng:");
+
+        if (soPhutSuDung <= 50) {
+            document.write("Cước điện thoại: 25000 VND");
+        } else {
+            document.write(`Cước điện thoại: ${25000 + (soPhutSuDung - 50) * 600} VND`);
+        }
+
+    </script>
+</body>
+</html>
